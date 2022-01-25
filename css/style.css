@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e5e5e5;
+}
+
+/* Classes que se repetem */
+.titulos {
+  font-family: 'Righteous', cursive;
+}
+
+.titulo-secao {
+  margin-left: 19px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 0.018em;
+  color: #333333;
+}
+
+.item {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.informacoes-item {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #a6a6a6;
+}
+
+.preco {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+/* Header */
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #cf2b2b;
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  padding: 8px 0px 18px;
+  width: 414px;
+}
+
+.texto-header {
+  margin-left: 21px;
+}
+
+.texto-header h1 {
+  font-size: 44px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 55px;
+  letter-spacing: -0.012em;
+  color: #ffffff;
+}
+
+.texto-header h2 {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+/* Main */
+main {
+  width: 414px;
+}
+
+.secao-pratos:first-child {
+  margin-top: 131px;
+}
+
+.pratos,
+.bebidas,
+.sobremesas {
+  display: flex;
+  overflow-x: scroll;
+  margin: 18px 0 26px 19px;
+  gap: 16px;
+}
+
+.pratos:last-child,
+.bebidas:last-child,
+.sobremesas:last-child {
+  margin-right: 16px;
+}
+
+.prato,
+.bebida,
+.sobremesa {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 18px 14px 13px 14px;
+  border-radius: 9px;
+  gap: 8px;
+  box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+}
+
+.sobremesas {
+  margin-bottom: 110px;
+}
+
+/* Footer */
+footer {
+  background-color: #ffffff;
+  width: 414px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.botao {
+  background-color: #cbcbcb;
+  border-radius: 50px;
+  height: 61px;
+  width: 364px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.018em;
+  color: #ffffff;
+}
