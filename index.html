@@ -15,111 +15,121 @@
     />
   </head>
   <body>
+    <!-- Topo -->
     <header>
       <div class="texto-header">
         <h1 class="titulos">DrivenEats</h1>
         <h2>Sua comida em 6 minutos</h2>
       </div>
     </header>
+
+    <!--Conteudo Principal-->
     <main>
-      <section class="secao-pratos">
+      <!-- Pratos -->
+      <section class="secao-pratos" data-identifier="dishes">
         <p class="titulos titulo-secao margin-top-31">Primeiro, seu prato</p>
         <div class="pratos">
-          <div class="prato">
+          <div id="prato-1" class="prato" data-identifier="food-option">
             <img src="./assets/frango_yin_yang 1.svg" alt="Foto de um prato" />
-            <p class="item">Frango Yin Yang</p>
+            <p class="item" data-identifier="food-title">Frango Yin Yang</p>
             <p class="informacoes-item">
               Um pouco de batata, um pouco de salada
             </p>
-            <p class="preco">R$ 14,90</p>
+            <p class="preco" data-identifier="food-price">R$ 20,90</p>
           </div>
 
-          <div class="prato">
+          <div id="prato-2" class="prato" data-identifier="food-option">
             <img src="./assets/frango_yin_yang 1.svg" alt="Foto de um prato" />
-            <p class="item">Frango Yin Yang</p>
+            <p class="item" data-identifier="food-title">Frango Yin Yang</p>
             <p class="informacoes-item">
               Um pouco de batata, um pouco de salada
             </p>
-            <p class="preco">R$ 14,90</p>
+            <p class="preco" data-identifier="food-price">R$ 16,90</p>
           </div>
 
-          <div class="prato">
+          <div id="prato-3" class="prato" data-identifier="food-option">
             <img src="./assets/frango_yin_yang 1.svg" alt="Foto de um prato" />
-            <p class="item">Frango Yin Yang</p>
+            <p class="item" data-identifier="food-title">Frango Yin Yang</p>
             <p class="informacoes-item">
               Um pouco de batata, um pouco de salada
             </p>
-            <p class="preco">R$ 14,90</p>
+            <p class="preco" data-identifier="food-price">R$ 14,90</p>
           </div>
         </div>
       </section>
 
-      <section class="secao-bebidas">
+      <!-- Bebidas -->
+      <section class="secao-bebidas" data-identifier="drinks">
         <p class="titulos titulo-secao">Agora, sua bebida</p>
         <div class="bebidas">
-          <div class="bebida">
+          <div id="bebida-1" class="bebida" data-identifier="food-option">
             <img
               src="./assets/coquinha_gelada 1.svg"
               alt="Foto de uma bebida"
             />
-            <p class="item">Coquinha gelada</p>
+            <p class="item" data-identifier="food-title">Coquinha gelada</p>
             <p class="informacoes-item">Lata 350ml</p>
-            <p class="preco">R$ 4,90</p>
+            <p class="preco" data-identifier="food-price">R$ 4,90</p>
           </div>
 
-          <div class="bebida">
+          <div id="bebida-2" class="bebida" data-identifier="food-option">
             <img
               src="./assets/coquinha_gelada 1.svg"
               alt="Foto de uma bebida"
             />
-            <p class="item">Coquinha gelada</p>
+            <p class="item" data-identifier="food-title">Coquinha gelada</p>
             <p class="informacoes-item">Lata 350ml</p>
-            <p class="preco">R$ 4,90</p>
+            <p class="preco" data-identifier="food-price">R$ 4,70</p>
           </div>
 
-          <div class="bebida">
+          <div id="bebida-3" class="bebida" data-identifier="food-option">
             <img
               src="./assets/coquinha_gelada 1.svg"
               alt="Foto de uma bebida"
             />
-            <p class="item">Coquinha gelada</p>
+            <p class="item" data-identifier="food-title">Coquinha gelada</p>
             <p class="informacoes-item">Lata 350ml</p>
-            <p class="preco">R$ 4,90</p>
+            <p class="preco" data-identifier="food-price">R$ 4,50</p>
           </div>
         </div>
       </section>
 
-      <section class="secao-sobremesas">
+      <!-- Sobremesas -->
+      <section class="secao-sobremesas" data-identifier="desserts">
         <p class="titulos titulo-secao">Por fim, sua sobremesa</p>
         <div class="sobremesas">
-          <div class="sobremesa">
+          <div id="sobremesa-1" class="sobremesa" data-identifier="food-option">
             <img src="./assets/pudim 1.svg" alt="Foto de uma sobremesa" />
-            <p class="item">Pudim</p>
+            <p class="item" data-identifier="food-title">Pudim</p>
             <p class="informacoes-item">Apenas Pudim</p>
-            <p class="preco">R$ 7,90</p>
+            <p class="preco" data-identifier="food-price">R$ 7,90</p>
           </div>
 
-          <div class="sobremesa">
+          <div id="sobremesa-2" class="sobremesa" data-identifier="food-option">
             <img src="./assets/pudim 1.svg" alt="Foto de uma sobremesa" />
-            <p class="item">Pudim</p>
+            <p class="item" data-identifier="food-title">Pudim</p>
             <p class="informacoes-item">Apenas Pudim</p>
-            <p class="preco">R$ 7,90</p>
+            <p class="preco" data-identifier="food-price">R$ 7,50</p>
           </div>
 
-          <div class="sobremesa">
+          <div id="sobremesa-3" class="sobremesa" data-identifier="food-option">
             <img src="./assets/pudim 1.svg" alt="Foto de uma sobremesa" />
-            <p class="item">Pudim</p>
+            <p class="item" data-identifier="food-title">Pudim</p>
             <p class="informacoes-item">Apenas Pudim</p>
-            <p class="preco">R$ 7,90</p>
+            <p class="preco" data-identifier="food-price">R$ 7,00</p>
           </div>
         </div>
       </section>
     </main>
-    <footer>
-      <div class="botao">
-        <p>Selecione os 3 itens</p>
-        <p>para fechar o pedido</p>
-      </div>
-    </footer>
+
+    <!-- Rodapé e Botão -->
+    <div class="footer">
+      <button>
+        Selecione os 3 itens <br />
+        para fechar o pedido
+      </button>
+    </div>
+
+    <script src="js/script.js"></script>
   </body>
 </html>

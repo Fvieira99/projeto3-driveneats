@@ -40,7 +40,7 @@ body {
 
 .preco {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   color: #000000;
@@ -52,7 +52,6 @@ header {
   left: 0;
   top: 0;
   background-color: #cf2b2b;
-  width: 100%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
   align-items: center;
@@ -75,7 +74,7 @@ header {
 
 .texto-header h2 {
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 21px;
   color: #ffffff;
 }
@@ -113,7 +112,7 @@ main {
   padding: 18px 14px 13px 14px;
   border-radius: 9px;
   gap: 8px;
-  box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 10px -4px rgba(0, 0, 0, 0.25);
 }
 
 .sobremesas {
@@ -121,7 +120,7 @@ main {
 }
 
 /* Footer */
-footer {
+.footer {
   background-color: #ffffff;
   width: 414px;
   height: 92px;
@@ -133,22 +132,26 @@ footer {
   bottom: 0;
 }
 
-.botao {
+.footer button {
   background-color: #cbcbcb;
   border-radius: 50px;
+  border: 0px;
+  outline: none;
   height: 61px;
   width: 364px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.botao p {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 20px;
   line-height: 23px;
   letter-spacing: 0.018em;
   color: #ffffff;
+}
+
+/* JavaScript */
+.ativo {
+  border: 5px solid #32b72f;
 }
